@@ -441,7 +441,7 @@ class LibrarySystem
 
             while(option != 0)
             {
-                cout<<"\n0. Return To Main Menu\n1. UserS\n2. BookS\n\n";
+                cout<<"\n0. Return To Main Menu\n1. Users\n2. Books\n\n";
                 cin>>option;
 
                 if(option == 1){MenuShowUsers(Students, Teachers);}
@@ -456,7 +456,7 @@ class LibrarySystem
 
             while(option != 0)
             {
-                cout<<"\n0. Return\n1. StudentS\n2. Teachers\n\n";
+                cout<<"\n0. Return\n1. Students\n2. Teachers\n\n";
                 cin>>option;
 
                 if(option == 1)
