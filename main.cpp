@@ -550,16 +550,16 @@ class LibrarySystem
             }
             else
             {
-                unsigned int contador = 0;
+                unsigned int counter = 0;
 
                 for(unsigned int i = 0; i < PrintedBooks.size(); i++)
                 {
                     if(PrintedBooks[i].getStatus() == true)
                     {
-                        contador++;
+                        counter++;
                     }
                 }
-                if(contador == PrintedBooks.size())
+                if(counter == PrintedBooks.size())
                 {
                     cout<<"\nNo Printed Books Available to Lend\n";
                 }
